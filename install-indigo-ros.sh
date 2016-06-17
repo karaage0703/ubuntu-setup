@@ -38,7 +38,7 @@ cd ~/catkin_ws
 catkin_make
 
 echo "[Setting the ROS evironment]"
-sh -c "echo \"source ~/ros/indigo/devel/setup.bash\" >> ~/.bashrc"
+sh -c "echo \"source ~/catkin_ws/devel/setup.bash\" >> ~/.bashrc"
 
 echo "[Complete!!!]"
 
