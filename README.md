@@ -9,22 +9,28 @@ $ sudo apt-get update
 $ sudo apt-get -y install git
 ```
 ## Clone repository and copy tools
+Execute following commands.
 ```sh
 $ cd
 $ git clone https://github.com/karaage0703/ros-ubuntu-setup
 ```
-## Setup .bashrc
+## Copy .bashrc
+Execute following command:
 ```sh
-$ cd ~/ros-ubuntu-setup
-$ ./setup.sh
+$ cp ~/ros-ubuntu-setup/.bashrc ~/.bashrc
 ```
 
+If you don't want to custom .bashrc. You can skip this step.
+
+
 ## Setup ROS
+Execute following command:
 ```sh
 $ ./install-ros.sh
 ```
 
 ## Setup development tools
+Execute following command:
 ```sh
 $ ./install-tools.sh
 ```
