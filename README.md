@@ -24,13 +24,13 @@ If you don't want to custom .bashrc. You can skip this step.
 
 
 ## Setup ROS
-Execute following command:
+Execute following command(This step takes 10-20minutes).
 ```sh
-$ ./install-ros.sh
+$ ./install-indigo-ros.sh
 ```
 
 ## Setup development tools
-Execute following command:
+Execute following command(This step takes 10-20minutes).
 ```sh
 $ ./install-tools.sh
 ```
