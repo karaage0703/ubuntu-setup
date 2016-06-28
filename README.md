@@ -37,3 +37,7 @@ $ ./install-tools.sh
 
 # Special Thanks
 - http://wiki.ros.org/ROS/Installation/TwoLineInstall
+
+
+# License
+This software is released under the BSD License, see LICENSE.
