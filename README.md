@@ -35,6 +35,12 @@ Execute following command(This step takes 10-20minutes).
 $ ./install-tools.sh
 ```
 
+## Setup ROS & development tools
+Execute following command(This step takes 20-40minutes).
+```sh
+$ ./install-all.sh
+```
+
 # Special Thanks
 - http://wiki.ros.org/ROS/Installation/TwoLineInstall
 

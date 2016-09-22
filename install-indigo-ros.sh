@@ -33,9 +33,9 @@ sudo apt-get install -y python-rosinstall
 echo "[Making the catkin workspace and testing the catkin_make]"
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
-catkin_init_workspace
+wstool init
 cd ~/catkin_ws
-catkin_make
+catkin build
 
 echo "[Setting the ROS evironment]"
 sh -c "echo \"source ~/catkin_ws/devel/setup.bash\" >> ~/.bashrc"
