@@ -21,7 +21,6 @@ sudo apt-get update
 echo "[Installing ROS and ROS Packages]"
 sudo apt-get install -y ros-indigo-desktop-full
 sudo apt-get install -y ros-indigo-rqt-*
-sudo apt-get install -y ros-indigo-camera-calibration
 sudo apt-get install -y python-wstool python-catkin-tools
 
 echo "[rosdep init and python-rosinstall]"
