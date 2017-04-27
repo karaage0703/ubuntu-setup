@@ -35,9 +35,15 @@ Execute following command(This step takes 10-20minutes).
 $ ./install-tools.sh
 ```
 
+## Change Directory name from Japanese to English(optional)
+Execute following command:
+```sh
+$ LANG=C xdg-user-dirs-gdk-update
+```
+
 # Special Thanks
 - http://wiki.ros.org/ROS/Installation/TwoLineInstall
-
+- http://unskilled.site/linuxで日本語名ディレクトリを英語名に変換する方/
 
 # License
 This software is released under the BSD License, see LICENSE.
