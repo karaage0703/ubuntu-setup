@@ -40,7 +40,6 @@ $ sudo date —set @"$(wget -q https://ntp-a1.nict.go.jp/cgi-bin/jst -O - | sed 
 
 You can execute above command under proxy.
 
-
 ### Install ROS
 Execute following command(This step takes 10-20minutes).
 
