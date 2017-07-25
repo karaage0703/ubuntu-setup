@@ -12,7 +12,7 @@ $ sudo apt-get -y install git
 Execute following commands.
 ```sh
 $ cd
-$ git clone https://github.com/karaage0703/ros-ubuntu-setup
+$ git clone https://github.com/karaage0703/ubuntu-setup
 ```
 ## Copy .bashrc
 Execute following command:
@@ -26,7 +26,7 @@ If you don't want to custom .bashrc. You can skip this step.
 ## Setup ROS
 Execute following command(This step takes 10-20minutes).
 ```sh
-$ ./install-indigo-ros.sh
+$ ./install-ros-indigo.sh
 ```
 
 ## Setup development tools
