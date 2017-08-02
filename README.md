@@ -35,7 +35,7 @@ $ LANG=C xdg-user-dirs-gdk-update
 Execute following command:
 
 ```sh
-$ sudo date —set @"$(wget -q https://ntp-a1.nict.go.jp/cgi-bin/jst -O - | sed -n 4p | cut -d. -f1)"
+$ sudo date --set @"$(wget -q https://ntp-a1.nict.go.jp/cgi-bin/jst -O - | sed -n 4p | cut -d. -f1)"
 ```
 
 You can execute above command under proxy.
