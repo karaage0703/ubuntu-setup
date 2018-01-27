@@ -49,7 +49,7 @@ $ cd ~/ubuntu-setup
 $ ./install-ros-indigo.sh
 ```
 
-#### Kinetic(Ubuntu 14.04)
+#### Kinetic(Ubuntu 16.04)
 ```sh
 $ cd ~/ubuntu-setup
 $ ./install-ros-kinetic.sh
