@@ -117,20 +117,8 @@ fi
 # keyboard setting
 setxkbmap -model jp106 -layout jp -option ctrl:nocaps
 
-# ctag alias
-alias ctags='ctags -R --extra=+f --langmap=HTML:+.launch' # for ctags
-
 # open alias (same as Mac)
 alias open='xdg-open'
-
-# ROS------------------------
-rostop() {
-    cd ~/catkin_ws/src
-}
-
-# readline
-RLWRAP_COMMAND=`which rlwrap`
-alias roseus="$RLWRAP_COMMAND roseus"
 
 # git prompt
 export PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
