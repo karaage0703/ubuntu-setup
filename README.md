@@ -55,7 +55,7 @@ $ sudo date --set @"$(wget -q https://ntp-a1.nict.go.jp/cgi-bin/jst -O - | sed -
 
 You can execute above command under proxy.
 
-## Install Docker and NVIDIA container toolkit
+## Install Docker and NVIDIA Container Toolkit
 Install Docker:
 
 ```sh
