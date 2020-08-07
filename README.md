@@ -88,8 +88,7 @@ $ cd ~/ubuntu-setup && ./install-ros-kinetic.sh
 Execute following command(This step takes 10-20minutes):
 
 ```sh
-$ cd ~/ubuntu-setup
-$ ./install-tools.sh
+$ cd ~/ubuntu-setup && ./install-tools.sh
 ```
 
 
