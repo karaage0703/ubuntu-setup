@@ -90,6 +90,13 @@ $ cd ~/ubuntu-setup && ./install-ros-kinetic.sh
 ```
 
 
+### Kinetic(Ubuntu 18.04)
+
+```sh
+$ cd ~/ubuntu-setup && ./install-ros-melodic.sh
+```
+
+
 ## Install development tools
 Execute following command(This step takes 10-20minutes):
 
