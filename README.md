@@ -25,6 +25,20 @@ Execute following command:
 $ cat ~/ubuntu-setup/bashrc.patch >> ~/.bashrc
 ```
 
+## Change light Window manager
+
+```sh
+$ sudo apt install -y lubuntu-gtk-core
+```
+
+Select lightdm
+
+```sh
+$ sudo apt install -y lubuntu-desktop fcitx-mozc
+```
+
+Select lubuntu from upper right icon of login screen
+
 ## Change Directory name from Japanese to English(Japanese only)
 Execute following command:
 
