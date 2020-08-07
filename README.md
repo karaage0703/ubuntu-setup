@@ -18,12 +18,26 @@ Execute following command:
 $ cd && git clone https://github.com/karaage0703/ubuntu-setup
 ```
 
-## Copy .bashrc
+## Update .bashrc
 Execute following command:
 
 ```sh
-$ cp ~/ubuntu-setup/.bashrc ~/.bashrc
+$ cat ~/ubuntu-setup/bashrc.patch >> ~/.bashrc
 ```
+
+## Change light Window manager
+
+```sh
+$ sudo apt install -y lubuntu-gtk-core
+```
+
+Select lightdm
+
+```sh
+$ sudo apt install -y lubuntu-desktop fcitx-mozc
+```
+
+Select lubuntu from upper right icon of login screen
 
 ## Change Directory name from Japanese to English(Japanese only)
 Execute following command:
@@ -48,10 +62,16 @@ Install Docker:
 $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-docker.sh | /bin/bash
 ```
 
-Install NVIDIA container toolkit:
+Install NVIDIA Container Toolkit:
 
 ```sh
 $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-nvidia-container-toolkit.sh | /bin/bash
+```
+
+Install NVIDIA Docker:
+
+```sh
+$ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-nvidia-docker.sh | /bin/bash
 ```
 
 ## Install ROS
@@ -60,25 +80,21 @@ Execute following command(This step takes 10-20minutes).
 ### Indigo(Ubuntu 14.04)
 
 ```sh
-$ cd ~/ubuntu-setup
-$ ./install-ros-indigo.sh
+$ cd ~/ubuntu-setup && ./install-ros-indigo.sh
 ```
 
 ### Kinetic(Ubuntu 16.04)
 
 ```sh
-$ cd ~/ubuntu-setup
-$ ./install-ros-kinetic.sh
+$ cd ~/ubuntu-setup && ./install-ros-kinetic.sh
 ```
-
 
 
 ## Install development tools
 Execute following command(This step takes 10-20minutes):
 
 ```sh
-$ cd ~/ubuntu-setup
-$ ./install-tools.sh
+$ cd ~/ubuntu-setup && ./install-tools.sh
 ```
 
 
