@@ -62,10 +62,16 @@ Install Docker:
 $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-docker.sh | /bin/bash
 ```
 
-Install NVIDIA container toolkit:
+Install NVIDIA Container Toolkit:
 
 ```sh
 $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-nvidia-container-toolkit.sh | /bin/bash
+```
+
+Install NVIDIA Docker:
+
+```sh
+$ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-nvidia-docker.sh | /bin/bash
 ```
 
 ## Install ROS
