@@ -18,11 +18,11 @@ Execute following command:
 $ cd && git clone https://github.com/karaage0703/ubuntu-setup
 ```
 
-## Copy .bashrc
+## Update .bashrc
 Execute following command:
 
 ```sh
-$ cp ~/ubuntu-setup/.bashrc ~/.bashrc
+$ cat ~/ubuntu-setup/bashrc.patch >> ~/.bashrc
 ```
 
 ## Change Directory name from Japanese to English(Japanese only)
@@ -60,17 +60,14 @@ Execute following command(This step takes 10-20minutes).
 ### Indigo(Ubuntu 14.04)
 
 ```sh
-$ cd ~/ubuntu-setup
-$ ./install-ros-indigo.sh
+$ cd ~/ubuntu-setup && ./install-ros-indigo.sh
 ```
 
 ### Kinetic(Ubuntu 16.04)
 
 ```sh
-$ cd ~/ubuntu-setup
-$ ./install-ros-kinetic.sh
+$ cd ~/ubuntu-setup && ./install-ros-kinetic.sh
 ```
-
 
 
 ## Install development tools
