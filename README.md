@@ -22,7 +22,7 @@ $ cd && git clone https://github.com/karaage0703/ubuntu-setup
 Execute following command:
 
 ```sh
-$ cat ~/ubuntu-setup/bashrc.patch >> ~/.bashrc
+$ curl -l https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/bashrc.patch >> ~/.bashrc
 ```
 
 ## Change light Window manager
