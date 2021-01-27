@@ -6,9 +6,9 @@ These scripts are tested in Ubuntu 14.04 LTS and 16.04 LTS 18.04 LTS.
 ## Install git and curl
 
 ```sh
-$ sudo apt-get update
-$ sudo apt-get -y install git
-$ sudo apt-get -y install curl
+$ sudo apt update
+$ sudo apt -y install git
+$ sudo apt -y install curl
 ```
 
 ## Clone repository
