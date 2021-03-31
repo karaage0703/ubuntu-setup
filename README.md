@@ -84,18 +84,11 @@ $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/inst
 ## Install ROS
 Execute following command(This step takes 10-20minutes).
 
-### Indigo(Ubuntu 14.04)
-
-```sh
-$ cd ~/ubuntu-setup && ./install-ros-indigo.sh
-```
-
 ### Kinetic(Ubuntu 16.04)
 
 ```sh
-$ cd ~/ubuntu-setup && ./install-ros-kinetic.sh
+$ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-ros-kinetic.sh | /bin/bash
 ```
-
 
 ### Melodic(Ubuntu 18.04)
 
@@ -107,7 +100,7 @@ $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/inst
 Execute following command(This step takes 10-20minutes):
 
 ```sh
-$ cd ~/ubuntu-setup && ./install-tools.sh
+$ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-tools.sh | /bin/bash
 ```
 
 
