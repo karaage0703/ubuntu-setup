@@ -39,6 +39,13 @@ $ sudo apt install -y lubuntu-desktop fcitx-mozc
 
 Select lubuntu from upper right icon of login screen
 
+## Install VS Code Editor
+Execute following command:
+
+```sh
+$ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-vscode.sh | /bin/bash
+```
+
 ## Change Directory name from Japanese to English(Japanese only)
 Execute following command:
 
