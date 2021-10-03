@@ -102,7 +102,12 @@ Execute following command(This step takes 10-20minutes):
 ```sh
 $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-tools.sh | /bin/bash
 ```
+## Install Pyenv
+Execute following command:
 
+```sh
+$ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-pyenv.sh | /bin/bash
+```
 
 # Special Thanks
 - http://wiki.ros.org/ROS/Installation/TwoLineInstall
