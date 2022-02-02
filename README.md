@@ -102,6 +102,11 @@ $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/inst
 $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-ros-noetic.sh | /bin/bash
 ```
 
+## Install librealsense
+
+```sh
+$ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-librealsense.sh | /bin/bash
+```
 
 ## Install development tools
 Execute following command(This step takes 10-20minutes):
