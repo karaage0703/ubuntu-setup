@@ -96,6 +96,13 @@ $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/inst
 $ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-ros-melodic.sh | /bin/bash
 ```
 
+### Noetic(Ubuntu 20.04)
+
+```sh
+$ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-ros-noetic.sh | /bin/bash
+```
+
+
 ## Install development tools
 Execute following command(This step takes 10-20minutes):
 
