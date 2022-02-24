@@ -21,7 +21,6 @@ echo "[Installing ROS and ROS Packages]"
 sudo apt install -y ros-noetic-desktop-full
 source /opt/ros/noetic/setup.bash
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-sudo apt-get install -y python-catkin-tools
 
 echo "[Dependecies]"
 sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
