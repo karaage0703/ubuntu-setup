@@ -25,7 +25,15 @@ Execute following command:
 $ curl -l https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/bashrc.patch >> ~/.bashrc
 ```
 
+## Install/Update Google Chrome
+Execute following command:
+
+```sh
+$ curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-google-chrome.sh | /bin/bash
+```
+
 ## Change light Window manager
+Execute following command:
 
 ```sh
 $ sudo apt install -y lubuntu-gtk-core
